@@ -1,0 +1,47 @@
+html, body {
+    /* background: linear-gradient(to bottom, #b7eaff 0%,#94dfff 100%);; */
+    margin:0;    
+}
+.container {
+    display: flex;
+    width: 100%;
+    height: 100vh;
+    background: linear-gradient(to bottom, #57c1eb 0%,#246fa8 100%);}
+.main {
+    flex:2;
+}
+
+.sidebar {
+    display: flex;
+    flex:1;
+    background-color: rgb(3, 3, 65);
+    opacity: 0.8;
+  
+}  
+
+.search {
+    position:absolute;
+    right: 0;
+    top: 0;
+    padding: 25px;
+    background-color: lightblue;
+
+}
+
+.search img {
+    width: 25px;
+}
+
+.weather {
+    display: flex;
+    justify-content: space-between;
+    position: absolute; 
+    place-items: center;
+    bottom: 25px;
+    left: 75px;
+    padding: 10px;
+}
+
+.location, .weather-type {
+    padding: 10px;
+}
